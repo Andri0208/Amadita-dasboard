@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Variables de colores */
+/* Fondo del header */
+/* Color del texto en la navegación */
+/* Fondo del enlace al pasar el mouse */
+/* Fondo de la sección principal */
+/* Color del enlace de cerrar sesión */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos del header */
+.header {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 297px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+.header img {
+  margin: 40px 0;
+  width: 253px;
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #5D7285;
+  padding: 15px;
+}
+.nav-link i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.nav-link span {
+  font-size: 15px;
+}
+
+/* Hover en los enlaces */
+.nav-item:hover {
+  background: rgba(235, 20, 118, 0.2);
+}
+
+/* Sección principal */
+.main {
+  margin-left: 297px;
+  padding: 20px;
+  background: #F9F9F9;
+}
+
+/* Estilo del enlace para cerrar sesión */
+.cerrar {
+  color: #EB1476;
+}/*# sourceMappingURL=style.css.map */

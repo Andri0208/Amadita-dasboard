@@ -1,0 +1,66 @@
+/* Variables de colores */
+$color-header-fondo: #FFFFFF; /* Fondo del header */
+$color-nav-texto: #5D7285; /* Color del texto en la navegación */
+$color-nav-hover: #EB147633; /* Fondo del enlace al pasar el mouse */
+$color-main-fondo: #F9F9F9; /* Fondo de la sección principal */
+$color-cerrar-sesion: #EB1476; /* Color del enlace de cerrar sesión */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos del header */
+  .header {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 297px;
+    padding: 10px;
+    background-color: $color-header-fondo;
+  
+    img {
+      margin: 40px 0;
+      width: 253px;
+    }
+  }
+  
+  /* Estilos de los enlaces de navegación */
+  .nav-link {
+    display: flex;
+    align-items: center;
+    color: $color-nav-texto;
+    padding: 15px;
+  
+    i {
+      font-size: 30px;
+      padding-right: 10px;
+    }
+  
+    span {
+      font-size: 15px;
+    }
+  }
+  
+  /* Hover en los enlaces */
+  .nav-item:hover {
+    background: $color-nav-hover;
+  }
+  
+  /* Sección principal */
+  .main {
+    margin-left: 297px;
+    padding: 20px;
+    background: $color-main-fondo;
+  }
+  
+  /* Estilo del enlace para cerrar sesión */
+  .cerrar {
+    color: $color-cerrar-sesion;
+  }
+  
